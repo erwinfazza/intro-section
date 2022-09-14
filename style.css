@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  margin: 20px 40px;
+  font-family: 'Epilogue',
+    sans-serif;
+}
+
+/* gambar besar */
+.pic {
+  width: 350px;
+  height: 450px;
+  margin: 10px 0 0 200px;
+}
+
+/* text */
+.text {
+  margin: 60px 0 0 200px;
+}
+
+.text1 {
+  font-family: 'Epilogue', sans-serif;
+  font-weight: 700;
+  font-size: 70px;
+}
+
+.text2 {
+  font-family: 'Epilogue', sans-serif;
+  color: hsl(0, 0%, 41%);
+}
+
+/* buton */
+.buton {
+  border: 0.5px solid hsl(0, 0%, 41%);
+  border-radius: 10px;
+  padding: 5px 20px;
+}
+
+.cta {
+  border: 0.5px solid hsl(0, 0%, 41%);
+  border-radius: 10px;
+  padding: 5px 20px;
+  background-color: hsl(0, 0%, 8%);
+  color: hsl(0, 0%, 98%);
+}
+
+.cta:hover {
+  background-color: hsl(0, 0%, 98%);
+  color: hsl(0, 0%, 41%);
+}
+
+#container {
+  margin-right: 100px;
+}
+
+@media (max-width: 576px) {
+  .text {
+    margin: 30px;
+    text-align: center;
+  }
+
+  .text1 {
+    font-size: 40px;
+  }
+
+  .pic {
+    margin: 20px;
+  }
+}
